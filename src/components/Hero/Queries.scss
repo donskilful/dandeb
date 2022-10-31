@@ -1,0 +1,235 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+    margin-bottom: 5rem;
+    .navbar {
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+    .heading {
+      font-size: 3.8rem;
+      color: #ffffff;
+      padding-top: 0.9rem;
+    }
+    .product-imgs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      padding-top: 4rem;
+      .vegetables {
+        margin-top: -12rem;
+        img {
+          height: 55rem;
+        }
+      }
+      .chicken {
+        img {
+          height: 40rem;
+        }
+      }
+    }
+    .btn-div {
+      padding-top: 8.5rem;
+      .order-btn {
+        text-decoration: none;
+        font-size: 1.9rem;
+        color: white;
+        padding: 1.5rem 3.5rem;
+        background-color: #408055;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+
+    .hero {
+      margin-bottom: 30rem;
+      height: 53vh;
+      background-size: 100% 90%;
+
+      // padding: 0.2rem;
+
+      .navbar {
+        padding: 1rem;
+        margin-bottom: 0.5rem;
+      }
+      .heading {
+        font-size: 3rem;
+        color: #ffffff;
+        padding-top: 3rem;
+      }
+      .product-imgs {
+        padding-top: 3rem;
+        .vegetables {
+          margin-top: -12rem;
+          img {
+            height: 50rem;
+          }
+        }
+        .chicken {
+          img {
+            height: 39rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+  .hero {
+    height: 50vh;
+    background-size: 100% 90%;
+
+    .heading {
+    }
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 50em) {
+  .hero {
+    height: 50vh;
+    background-size: 100% 90%;
+
+    .heading {
+      margin-bottom: -4rem;
+      margin-top: 5rem;
+    }
+    .product-imgs {
+      margin-top: 5rem;
+      .vegetables {
+        img {
+          display: none;
+        }
+      }
+      .chicken {
+        img {
+          padding: 4rem;
+        }
+      }
+    }
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 41em) {
+  .hero {
+    background-size: 100% 38%;
+    height: 50vh;
+
+    .heading {
+      // margin-bottom: -10rem;
+    }
+    .product-imgs {
+      .chicken {
+        img {
+          // padding: 9rem;
+        }
+      }
+    }
+    .btn-div {
+      padding-top: 0rem;
+      .order-btn {
+      }
+    }
+  }
+}
+
+@media (max-width: 34em) {
+  .hero {
+    margin-bottom: 0rem;
+    background-size: 100% 60% !important;
+
+    height: 50vh;
+    .heading {
+      font-size: 2rem !important;
+    }
+    .product-imgs {
+      .chicken {
+        img {
+          margin-top: -11rem;
+          padding: 8rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 24em) {
+  .hero {
+    margin-bottom: 0rem !important;
+    background-size: 100% 80%;
+
+    // height: 50vh !important;
+    .heading {
+      font-size: 1.8rem !important;
+      margin-top: 2rem;
+      margin-bottom: -7rem;
+    }
+    .product-imgs {
+      .chicken {
+        margin-bottom: -4rem;
+        img {
+          margin-top: -6rem;
+          padding: 10rem;
+        }
+      }
+    }
+    .btn-div {
+      .order-btn {
+        padding: 1.4rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 20em) {
+  .hero {
+    // background-color: #408055;
+    background-size: 100% 53% !important;
+
+    .heading {
+      font-size: 1.5rem !important;
+      margin-top: 1.5rem;
+    }
+    .product-imgs {
+      .chicken {
+        margin-bottom: -5rem;
+        img {
+          margin-top: -9rem !important;
+          margin-left: -3.5rem;
+        }
+      }
+    }
+  }
+}

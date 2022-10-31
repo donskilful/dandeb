@@ -1,0 +1,92 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .nav {
+    max-width: 120rem;
+    .navbar-left {
+    }
+    .navbar-right {
+      gap: 2rem;
+
+      ul {
+        gap: 4rem;
+      }
+
+      .order-now {
+        padding: 1.4rem 2.5rem;
+      }
+    }
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+  .nav {
+    padding: 0 3rem;
+    .navbar-left {
+      // height: 9rem;
+    }
+    .navbar-right {
+      gap: 2rem;
+
+      ul {
+        gap: 3rem;
+        font-size: 1.6rem;
+      }
+
+      .order-now {
+        padding: 1.4rem 2rem;
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 50em) {
+  .nav {
+    .navbar-left {
+    }
+    .navbar-right {
+      display: none;
+    }
+    .btn-mobile-nav {
+      display: block;
+    }
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .nav {
+    // max-width: 100%;
+  }
+}

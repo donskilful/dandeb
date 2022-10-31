@@ -1,0 +1,35 @@
+.hot-deals {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    margin-bottom: 4rem;
+    .header-left {
+      padding: 1rem;
+      h1 {
+        padding: 1rem;
+      }
+    }
+    .header-right {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      padding: 1rem;
+      // background-color: rgb(74, 71, 100);
+      .arrow-btn {
+        padding: 1rem;
+        // color: #408055;
+        font-size: 2rem;
+        cursor: pointer;
+        #back {
+        }
+        #front {
+        }
+      }
+    }
+  }
+  .main {
+    padding: 1rem;
+    background-color: rgb(153, 37, 143);
+  }
+}

@@ -1,0 +1,80 @@
+.nav {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 5rem;
+  padding: 0 4rem;
+  align-items: center;
+  .navbar-left {
+    img {
+      height: 7rem;
+    }
+  }
+  .navbar-right {
+    display: flex;
+    gap: 4rem;
+
+    ul {
+      display: flex;
+      gap: 6rem;
+      list-style: none;
+      padding: 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+      align-items: center;
+      a {
+        color: #101010;
+        transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+      }
+      a:link {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: none;
+        color: #c6dec1;
+      }
+      a:active {
+        text-decoration: none;
+        color: #408055;
+      }
+      a:visited {
+        text-decoration: none;
+      }
+    }
+
+    .cart-icon {
+      background-color: #e3eee1;
+      padding: 1rem;
+      border-radius: 5rem;
+      cursor: pointer;
+    }
+    .order-now {
+      background-color: #408055;
+      color: #ffffff;
+      padding: 1.3rem 2.7rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+
+      &:hover {
+        background-color: #9dc795;
+      }
+    }
+  }
+  .btn-mobile-nav {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+    #icon-mobile-nav {
+      height: 4.5rem;
+      width: 4.5rem;
+      color: #408055;
+    }
+
+    #icon-mobile-nav[name="close-outline"] {
+      display: none;
+    }
+  }
+}

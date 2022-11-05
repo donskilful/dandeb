@@ -1,9 +1,13 @@
 .hot-deals {
+  // width: 100%;
+  // margin: auto;
+  // height: 30rem;
+  // padding: 1rem 3rem;
   .header {
     display: flex;
     justify-content: space-between;
     padding: 0rem 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 10rem;
     .header-left {
       padding: 1rem;
       h1 {
@@ -19,8 +23,11 @@
       .arrow-btn {
         padding: 1rem;
         // color: #408055;
-        font-size: 2rem;
+        font-size: 4rem;
         cursor: pointer;
+        border: none !important;
+        background-color: white;
+
         #back {
         }
         #front {
@@ -28,8 +35,16 @@
       }
     }
   }
-  .main {
-    padding: 1rem;
-    background-color: rgb(153, 37, 143);
+  .main-container {
+    .main {
+      overflow-x: scroll;
+      overflow-y: hidden;
+
+      // margin: auto;
+      height: 30rem;
+      padding: 1rem 3rem;
+      display: flex;
+      flex-direction: row;
+    }
   }
 }

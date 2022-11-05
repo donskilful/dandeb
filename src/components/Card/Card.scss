@@ -1,0 +1,58 @@
+.card-container {
+  margin-top: 10rem;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  margin-right: 2px;
+  padding: 1rem 1rem 1rem 3rem;
+  box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+  -webkit-box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+  -moz-box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+
+  .img-container {
+    margin-top: -10rem;
+    border-radius: 50rem;
+    background-color: #c6dec1;
+    width: 13.5rem;
+    .img {
+      text-align: center;
+      padding: 0.5rem;
+      img {
+        height: 12rem;
+      }
+    }
+  }
+  .content {
+    width: 30rem;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-bottom: -2.7rem;
+    .title {
+      font-size: 2.4rem;
+      font-weight: bolder;
+    }
+    .price {
+      font-size: 1.9rem;
+      font-weight: lighter;
+    }
+  }
+  .btn {
+    align-self: flex-end;
+  }
+  .btn button {
+    border: none;
+    padding: 1rem 4rem;
+    background-color: #c6dec1;
+    border-radius: 0.6rem;
+    cursor: pointer;
+  }
+  .btn > button > a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #408055;
+  }
+}

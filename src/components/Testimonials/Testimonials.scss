@@ -1,0 +1,68 @@
+.testimonials {
+  padding: 5.5rem 5rem 15rem 5rem;
+  background-color: #f9fef8;
+  .heading {
+    h1 {
+      padding-bottom: 5.5rem;
+      font-size: 3.5rem;
+      font-family: "Merriweather", serif;
+      text-align: center;
+    }
+  }
+  .testimonies {
+    display: flex;
+    gap: 5rem;
+    .testimony-card {
+      padding: 3rem 3rem 0rem 3rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      border-radius: 3rem;
+      box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+      -webkit-box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+      -moz-box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+      background-color: #fff;
+      .card-header {
+        display: flex;
+        gap: 2rem;
+        .img {
+          img {
+            height: 6rem;
+            border-radius: 50%;
+          }
+        }
+        .header-text {
+          display: flex;
+          gap: 1rem;
+          flex-direction: column;
+          justify-content: center;
+          h4 {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-weight: 600;
+            font-size: 1.8rem;
+          }
+          p {
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-weight: 400;
+            font-size: 1.6rem;
+          }
+        }
+      }
+
+      .text-content {
+        p {
+          line-height: 3rem;
+          font-weight: 300;
+          font-size: medium;
+          font-family: "Plus Jakarta Sans", sans-serif;
+        }
+        img {
+          height: 10rem;
+          float: right;
+          margin-top: -2rem;
+          margin-right: -3rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.menu-section {
+  padding: 25rem 25rem 18rem 25rem;
+  .menu-card {
+    position: relative;
+    display: flex;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+    -webkit-box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+    -moz-box-shadow: 0px 0px 54px -24px rgba(120, 227, 220, 0.48);
+    background-color: #fff;
+    .menu-content {
+      padding: 5rem;
+      h1 {
+        font-family: "Merriweather";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.8rem; //
+        line-height: 148%;
+        letter-spacing: 0.0025em;
+        color: #408055;
+      }
+      p {
+        font-family: "Plus Jakarta Sans";
+        padding-right: 30rem;
+        margin-bottom: 1rem;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.4rem;
+        line-height: 3rem;
+        color: #000000;
+      }
+      .action {
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        a {
+          text-decoration: none;
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 1.8rem;
+          line-height: 168%;
+          letter-spacing: 0.005em;
+          color: #669977;
+        }
+        img {
+          height: 1.6rem;
+        }
+      }
+    }
+    .img {
+      img {
+        height: 48.2rem;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        float: right;
+      }
+    }
+  }
+}

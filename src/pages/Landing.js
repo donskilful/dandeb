@@ -5,6 +5,8 @@ import Hero from "../components/Hero/Hero";
 import HotDeals from "../components/HotDeals/HotDeals";
 import Cta from "../components/Cta/Cta";
 import Section from "../components/Section/Section";
+import Testimonials from "../components/Testimonials/Testimonials";
+import MenuSection from "../components/MenuSection/MenuSection";
 
 const Landing = () => {
   return (
@@ -13,6 +15,8 @@ const Landing = () => {
       <HotDeals />
       <Cta />
       <Section />
+      <Testimonials />
+      <MenuSection />
     </div>
   );
 };

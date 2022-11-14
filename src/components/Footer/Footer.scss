@@ -1,0 +1,164 @@
+.footer {
+  background-color: #f9fef8;
+  .foot {
+    padding: 9rem 9rem 8rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5rem;
+
+    .icons {
+      background: #ffffff;
+      border-radius: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 2rem;
+      .logo {
+        text-align: center;
+        img {
+          height: 11rem;
+        }
+      }
+      .social-media {
+        display: flex;
+        gap: 1rem;
+        img {
+          height: 5rem;
+        }
+      }
+    }
+    .services {
+      display: flex;
+      gap: 1.3rem;
+      flex-direction: column;
+      p {
+        font-family: "Merriweather";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 168%;
+        letter-spacing: 0.005em;
+        color: #408055;
+      }
+      a {
+        text-decoration: none;
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 168%;
+        letter-spacing: 0.005em;
+        color: #474747;
+      }
+    }
+    .company {
+      display: flex;
+      gap: 1.3rem;
+      flex-direction: column;
+      p {
+        font-family: "Merriweather";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 168%;
+        letter-spacing: 0.005em;
+        color: #408055;
+      }
+      a {
+        text-decoration: none;
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 168%;
+        letter-spacing: 0.005em;
+        color: #474747;
+      }
+    }
+    .our-menu {
+      display: flex;
+      gap: 1.3rem;
+      flex-direction: column;
+      p {
+        font-family: "Merriweather";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 168%;
+        letter-spacing: 0.005em;
+        color: #408055;
+      }
+      a {
+        text-decoration: none;
+        font-family: "Plus Jakarta Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 168%;
+        letter-spacing: 0.005em;
+        color: #474747;
+      }
+    }
+    .contact-us {
+      p {
+        font-family: "Merriweather";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 168%;
+        letter-spacing: 0.005em;
+        color: #408055;
+      }
+      .contact {
+        display: flex;
+        gap: 3.5rem;
+        align-items: center;
+        img {
+          // height: 1.6rem;
+          width: 1.6rem;
+        }
+        .phones {
+          h6 {
+            text-decoration: none;
+            font-family: "Plus Jakarta Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.4rem;
+            line-height: 168%;
+            letter-spacing: 0.005em;
+            color: #474747;
+          }
+        }
+        h6 {
+          text-decoration: none;
+          font-family: "Plus Jakarta Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 1.4rem;
+          line-height: 168%;
+          letter-spacing: 0.005em;
+          color: #474747;
+        }
+      }
+    }
+  }
+  .footer-text {
+    text-align: center;
+    padding: 2rem;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    color: #408055;
+  }
+  .after-footer {
+    margin: auto;
+    border-radius: 50% 50% 0 0;
+    margin-bottom: -1rem;
+    height: 0.8rem;
+    width: 90%;
+    background-color: #408055;
+  }
+}

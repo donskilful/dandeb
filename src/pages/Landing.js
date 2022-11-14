@@ -7,6 +7,7 @@ import Cta from "../components/Cta/Cta";
 import Section from "../components/Section/Section";
 import Testimonials from "../components/Testimonials/Testimonials";
 import MenuSection from "../components/MenuSection/MenuSection";
+import Footer from "../components/Footer/Footer";
 
 const Landing = () => {
   return (
@@ -17,6 +18,7 @@ const Landing = () => {
       <Section />
       <Testimonials />
       <MenuSection />
+      <Footer />
     </div>
   );
 };
